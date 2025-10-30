@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function FileUpload({ handleFileUpload }) {
-  console.log("FileUpload component loaded, handleFileUpload:", handleFileUpload);
   return (
     <div className="flex items-center justify-center w-full h-screen">
       <label
